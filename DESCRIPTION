@@ -1,0 +1,37 @@
+Package: surveyverse
+Title: Easily Install and Load the 'Surveyverse' Packages
+Version: 0.0.0.9000
+Authors@R:
+    person("Jacob", "Dennen", , "jdenn0514@gmail.com", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0003-3006-7364"))
+Description: The 'surveyverse' is a collection of R packages designed for
+    survey research, sharing a common design philosophy, grammar, and data
+    structures. Install and load the core surveyverse packages with a single
+    call to `library(surveyverse)`. Learn more at
+    <https://jdenn0514.github.io/surveyverse/>.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 4.3.0)
+Imports:
+    cli (>= 3.6.0),
+    surveycore,
+    surveytidy,
+    surveyweights
+Remotes:
+    JDenn0514/surveycore,
+    JDenn0514/surveytidy,
+    JDenn0514/surveyweights
+Suggests:
+    testthat (>= 3.0.0),
+    withr (>= 2.5.0),
+    covr,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+URL: https://github.com/JDenn0514/surveyverse, https://jdenn0514.github.io/surveyverse/
+BugReports: https://github.com/JDenn0514/surveyverse/issues
+X-schema.org-keywords: survey, metapackage, statistics, tidyverse, survey-research
+RoxygenNote: 7.3.3

@@ -1,4 +1,4 @@
-core <- c("surveycore", "surveytidy", "surveyweights")
+core <- c("surveycore", "surveytidy", "surveywts")
 
 #' List all surveyverse packages
 #'

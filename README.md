@@ -37,11 +37,6 @@ pak::pak("JDenn0514/surveyverse")
 <a href="https://jdenn0514.github.io/surveycore/" style="color:#6666CC; text-decoration:none;">surveycore</a>
 </h5>
 
-<p>
-
-<a href="https://github.com/JDenn0514/surveycore"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveycore?label=dev" alt="dev version"></a>
-</p>
-
 <p class="card-text">
 
 Core survey design objects built on S7 classes, metadata system, and
@@ -72,11 +67,6 @@ more</a>
 <a href="https://jdenn0514.github.io/surveytidy/" style="color:#3399AA; text-decoration:none;">surveytidy</a>
 </h5>
 
-<p>
-
-<a href="https://github.com/JDenn0514/surveytidy"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveytidy?label=dev" alt="dev version"></a>
-</p>
-
 <p class="card-text">
 
 A tidy interface to survey objects — dplyr and tidyr verbs (filter,
@@ -104,13 +94,8 @@ more</a>
 
 <h5 class="card-title" style="color:#AA4488;">
 
-<a href="https://jdenn0514.github.io/surveyweights/" style="color:#AA4488; text-decoration:none;">surveyweights</a>
+<a href="https://jdenn0514.github.io/surveywts/" style="color:#AA4488; text-decoration:none;">surveywts</a>
 </h5>
-
-<p>
-
-<a href="https://github.com/JDenn0514/surveyweights"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveyweights?label=dev" alt="dev version"></a>
-</p>
 
 <p class="card-text">
 
@@ -122,7 +107,7 @@ data, with a tidy, pipeline-friendly API.
 
 <div class="card-footer bg-transparent border-0">
 
-<a href="https://jdenn0514.github.io/surveyweights/" class="btn btn-sm" style="background-color:#AA4488; color:#fff;">Learn
+<a href="https://jdenn0514.github.io/surveywts/" class="btn btn-sm" style="background-color:#AA4488; color:#fff;">Learn
 more</a>
 
 </div>
@@ -138,9 +123,9 @@ more</a>
 ``` r
 library(surveyverse)
 #> -- Attaching core surveyverse packages --------
-#> v surveycore    0.2.0
-#> v surveytidy    0.1.0
-#> v surveyweights 0.0.0.9000
+#> v surveycore    0.3.5
+#> v surveytidy    0.2.1
+#> v surveywts     0.1.0
 ```
 
 ## Code of Conduct

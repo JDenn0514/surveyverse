@@ -1,0 +1,54 @@
+url: https://jdenn0514.github.io/surveyverse/
+
+template:
+  bootstrap: 5
+  bslib:
+    font_scale: 1.0
+    base_font: {google: "Roboto"}
+    code_font: {google: "Inter"}
+    heading_font: {google: "Roboto"}
+    bg: "#fcfbf9"
+    fg: "#000000"
+    primary: "#CC8833"           # warm amber — unifies the ecosystem
+    navbar-bg: "#FFF0CC"         # light amber tint
+    navbar-light-hover-color: "#CC8833"
+
+navbar:
+  structure:
+    left:  [intro, packages, articles, reference, news]
+    right: [search, github]
+  components:
+    packages:
+      text: Packages
+      menu:
+        - text: surveycore
+          href: https://jdenn0514.github.io/surveycore/
+        - text: surveytidy
+          href: https://jdenn0514.github.io/surveytidy/
+        - text: surveyweights
+          href: https://jdenn0514.github.io/surveyweights/
+
+home:
+  links:
+    - text: Report a bug
+      href: https://github.com/JDenn0514/surveyverse/issues
+
+reference:
+  - title: "Package management"
+    desc: >
+      Functions for inspecting and managing the installed surveyverse packages.
+    contents:
+      - surveyverse_packages
+  - title: internal
+    contents:
+      - surveyverse-package
+
+news:
+  releases:
+    - text: "surveyverse 0.0.0.9000"
+      href: news/index.html
+
+footer:
+  structure:
+    left:  developed_by
+    right: built_with

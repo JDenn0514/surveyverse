@@ -1,0 +1,102 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# surveyverse <img src="man/figures/logo.png" align="right" height="139" alt="" />
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/JDenn0514/surveyverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/JDenn0514/surveyverse/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/JDenn0514/surveyverse/graph/badge.svg)](https://app.codecov.io/gh/JDenn0514/surveyverse)
+<!-- badges: end -->
+
+The surveyverse is a collection of R packages for survey research, sharing a
+common design philosophy, grammar, and data structures. Install and load all
+core packages with a single call to `library(surveyverse)`.
+
+## Installation
+
+```r
+# install.packages("pak")
+pak::pak("JDenn0514/surveyverse")
+```
+
+## Packages
+
+<div class="row g-4 py-3">
+
+<div class="col-md-4">
+<div class="card h-100 border-0 shadow-sm">
+<div class="card-body">
+<h5 class="card-title" style="color:#6666CC;">
+<a href="https://jdenn0514.github.io/surveycore/" style="color:#6666CC; text-decoration:none;">surveycore</a>
+</h5>
+<p><a href="https://github.com/JDenn0514/surveycore"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveycore?label=dev" alt="dev version"></a></p>
+<p class="card-text">Core survey design objects built on S7 classes, metadata system,
+and shared infrastructure for the surveyverse ecosystem.</p>
+</div>
+<div class="card-footer bg-transparent border-0">
+<a href="https://jdenn0514.github.io/surveycore/" class="btn btn-sm" style="background-color:#6666CC; color:#fff;">Learn more</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card h-100 border-0 shadow-sm">
+<div class="card-body">
+<h5 class="card-title" style="color:#3399AA;">
+<a href="https://jdenn0514.github.io/surveytidy/" style="color:#3399AA; text-decoration:none;">surveytidy</a>
+</h5>
+<p><a href="https://github.com/JDenn0514/surveytidy"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveytidy?label=dev" alt="dev version"></a></p>
+<p class="card-text">A tidy interface to survey objects — dplyr and tidyr verbs
+(filter, select, mutate, rename, arrange, group_by) that respect survey design.</p>
+</div>
+<div class="card-footer bg-transparent border-0">
+<a href="https://jdenn0514.github.io/surveytidy/" class="btn btn-sm" style="background-color:#3399AA; color:#fff;">Learn more</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card h-100 border-0 shadow-sm">
+<div class="card-body">
+<h5 class="card-title" style="color:#AA4488;">
+<a href="https://jdenn0514.github.io/surveyweights/" style="color:#AA4488; text-decoration:none;">surveyweights</a>
+</h5>
+<p><a href="https://github.com/JDenn0514/surveyweights"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveyweights?label=dev" alt="dev version"></a></p>
+<p class="card-text">Advanced weighting, raking, and calibration methods for
+complex survey data, with a tidy, pipeline-friendly API.</p>
+</div>
+<div class="card-footer bg-transparent border-0">
+<a href="https://jdenn0514.github.io/surveyweights/" class="btn btn-sm" style="background-color:#AA4488; color:#fff;">Learn more</a>
+</div>
+</div>
+</div>
+
+</div>
+
+## Usage
+
+```{r example, eval = FALSE}
+library(surveyverse)
+#> -- Attaching core surveyverse packages --------
+#> v surveycore    0.2.0
+#> v surveytidy    0.1.0
+#> v surveyweights 0.0.0.9000
+```
+
+## Code of Conduct
+
+Please note that the surveyverse project is released with a
+[Contributor Code of Conduct](https://jdenn0514.github.io/surveyverse/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

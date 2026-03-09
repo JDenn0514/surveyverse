@@ -1,5 +1,5 @@
 # Changelog
 
-## surveyverse 0.0.0.9000
+## surveyverse 0.1.0
 
-- Initial development version.
+- Initial release.

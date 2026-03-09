@@ -16,9 +16,6 @@ pak::pak("JDenn0514/surveyverse")
 
 ##### [surveycore](https://jdenn0514.github.io/surveycore/)
 
-[![dev
-version](https://img.shields.io/github/r-package/v/JDenn0514/surveycore?label=dev)](https://github.com/JDenn0514/surveycore)
-
 Core survey design objects built on S7 classes, metadata system, and
 shared infrastructure for the surveyverse ecosystem.
 
@@ -26,32 +23,26 @@ shared infrastructure for the surveyverse ecosystem.
 
 ##### [surveytidy](https://jdenn0514.github.io/surveytidy/)
 
-[![dev
-version](https://img.shields.io/github/r-package/v/JDenn0514/surveytidy?label=dev)](https://github.com/JDenn0514/surveytidy)
-
 A tidy interface to survey objects — dplyr and tidyr verbs (filter,
 select, mutate, rename, arrange, group_by) that respect survey design.
 
 [Learn more](https://jdenn0514.github.io/surveytidy/)
 
-##### [surveyweights](https://jdenn0514.github.io/surveyweights/)
-
-[![dev
-version](https://img.shields.io/github/r-package/v/JDenn0514/surveyweights?label=dev)](https://github.com/JDenn0514/surveyweights)
+##### [surveywts](https://jdenn0514.github.io/surveywts/)
 
 Advanced weighting, raking, and calibration methods for complex survey
 data, with a tidy, pipeline-friendly API.
 
-[Learn more](https://jdenn0514.github.io/surveyweights/)
+[Learn more](https://jdenn0514.github.io/surveywts/)
 
 ## Usage
 
 ``` r
 library(surveyverse)
 #> -- Attaching core surveyverse packages --------
-#> v surveycore    0.2.0
-#> v surveytidy    0.1.0
-#> v surveyweights 0.0.0.9000
+#> v surveycore    0.3.5
+#> v surveytidy    0.2.1
+#> v surveywts     0.1.0
 ```
 
 ## Code of Conduct

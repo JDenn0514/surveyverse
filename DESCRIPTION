@@ -18,11 +18,11 @@ Imports:
     cli (>= 3.6.0),
     surveycore,
     surveytidy,
-    surveyweights
+    surveywts
 Remotes:
     JDenn0514/surveycore@main,
     JDenn0514/surveytidy@main,
-    JDenn0514/surveyweights@main
+    JDenn0514/surveywts@main
 Suggests:
     testthat (>= 3.0.0),
     withr (>= 2.5.0),

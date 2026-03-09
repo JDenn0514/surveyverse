@@ -20,9 +20,9 @@ Imports:
     surveytidy,
     surveyweights
 Remotes:
-    JDenn0514/surveycore,
-    JDenn0514/surveytidy,
-    JDenn0514/surveyweights
+    JDenn0514/surveycore@main,
+    JDenn0514/surveytidy@main,
+    JDenn0514/surveyweights@main
 Suggests:
     testthat (>= 3.0.0),
     withr (>= 2.5.0),
@@ -31,6 +31,7 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Config/testthat/edition: 3
+Config/Needs/website: pkgdown
 URL: https://github.com/JDenn0514/surveyverse, https://jdenn0514.github.io/surveyverse/
 BugReports: https://github.com/JDenn0514/surveyverse/issues
 X-schema.org-keywords: survey, metapackage, statistics, tidyverse, survey-research

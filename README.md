@@ -37,6 +37,11 @@ pak::pak("JDenn0514/surveyverse")
 <a href="https://jdenn0514.github.io/surveycore/" style="color:#6666CC; text-decoration:none;">surveycore</a>
 </h5>
 
+<p>
+
+<a href="https://github.com/JDenn0514/surveycore"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveycore?label=dev" alt="dev version"></a>
+</p>
+
 <p class="card-text">
 
 Core survey design objects built on S7 classes, metadata system, and
@@ -67,6 +72,11 @@ more</a>
 <a href="https://jdenn0514.github.io/surveytidy/" style="color:#3399AA; text-decoration:none;">surveytidy</a>
 </h5>
 
+<p>
+
+<a href="https://github.com/JDenn0514/surveytidy"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveytidy?label=dev" alt="dev version"></a>
+</p>
+
 <p class="card-text">
 
 A tidy interface to survey objects — dplyr and tidyr verbs (filter,
@@ -96,6 +106,11 @@ more</a>
 
 <a href="https://jdenn0514.github.io/surveyweights/" style="color:#AA4488; text-decoration:none;">surveyweights</a>
 </h5>
+
+<p>
+
+<a href="https://github.com/JDenn0514/surveyweights"><img src="https://img.shields.io/github/r-package/v/JDenn0514/surveyweights?label=dev" alt="dev version"></a>
+</p>
 
 <p class="card-text">
 

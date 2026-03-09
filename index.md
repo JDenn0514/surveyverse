@@ -1,0 +1,62 @@
+# surveyverse
+
+The surveyverse is a collection of R packages for survey research,
+sharing a common design philosophy, grammar, and data structures.
+Install and load all core packages with a single call to
+[`library(surveyverse)`](https://github.com/JDenn0514/surveyverse).
+
+## Installation
+
+``` r
+# install.packages("pak")
+pak::pak("JDenn0514/surveyverse")
+```
+
+## Packages
+
+##### [surveycore](https://jdenn0514.github.io/surveycore/)
+
+[![dev
+version](https://img.shields.io/github/r-package/v/JDenn0514/surveycore?label=dev)](https://github.com/JDenn0514/surveycore)
+
+Core survey design objects built on S7 classes, metadata system, and
+shared infrastructure for the surveyverse ecosystem.
+
+[Learn more](https://jdenn0514.github.io/surveycore/)
+
+##### [surveytidy](https://jdenn0514.github.io/surveytidy/)
+
+[![dev
+version](https://img.shields.io/github/r-package/v/JDenn0514/surveytidy?label=dev)](https://github.com/JDenn0514/surveytidy)
+
+A tidy interface to survey objects — dplyr and tidyr verbs (filter,
+select, mutate, rename, arrange, group_by) that respect survey design.
+
+[Learn more](https://jdenn0514.github.io/surveytidy/)
+
+##### [surveyweights](https://jdenn0514.github.io/surveyweights/)
+
+[![dev
+version](https://img.shields.io/github/r-package/v/JDenn0514/surveyweights?label=dev)](https://github.com/JDenn0514/surveyweights)
+
+Advanced weighting, raking, and calibration methods for complex survey
+data, with a tidy, pipeline-friendly API.
+
+[Learn more](https://jdenn0514.github.io/surveyweights/)
+
+## Usage
+
+``` r
+library(surveyverse)
+#> -- Attaching core surveyverse packages --------
+#> v surveycore    0.2.0
+#> v surveytidy    0.1.0
+#> v surveyweights 0.0.0.9000
+```
+
+## Code of Conduct
+
+Please note that the surveyverse project is released with a [Contributor
+Code of
+Conduct](https://jdenn0514.github.io/surveyverse/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
